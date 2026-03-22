@@ -1,0 +1,70 @@
+{
+    "baseUrl": "https://hook.pixiv.digital",
+    "serverBaseUrl": "https://uu.pixiv.digital",
+    "purchaseLinkBase": "https://ifdian.net/order/create?product_type=1",
+    "planID": "ef3c43c6daa411ee965e5254001e7c00",
+    "skuID": "ef440afcdaa411ee9e165254001e7c00",
+    "updateLink": "http://pixiv.digital",
+    "lastVersion": "1.0.12",
+    "versionDescription": "全新节点智能分组与加密传输，界面交互全面升级，新增多渠道密码找回，优化全平台连接体验与速度检测，提升账户安全防护等级，多项细节打磨与稳定性增强。\n建议：更新时无需退出旧版本，直接覆盖安装即可。",
+    "websiteId": "0782b7a2-79ab-4956-ab2f-d8c6fe0db1fb",
+    "showSupport": true,
+    "customSupportUrl": "",
+    "showNotification": true,
+    "notificationTitle": "v1.0.12 更新",
+    "notificationContent": "本次更新内容：\n1. 节点智能分组，连接更快更稳定\n2. 订阅传输全面加密，隐私安全升级\n3. 界面全新升级，交互更流畅视觉更舒适\n4. 新增多渠道密码找回，账户管理更便捷\n5. 优化各平台连接速度与整体使用体验",
+    "notificationTimestamp": 1773964800,
+    "notifications": [
+        {
+            "title": "v1.0.12 更新",
+            "content": "本次更新内容：\n1. 节点智能分组，连接更快更稳定\n2. 订阅传输全面加密，隐私安全升级\n3. 界面全新升级，交互更流畅视觉更舒适\n4. 新增多渠道密码找回，账户管理更便捷\n5. 优化各平台连接速度与整体使用体验",
+            "timestamp": 1773964800
+        },
+        {
+            "title": "Bug反馈有奖",
+            "content": "如果您在使用过程中发现任何Bug或异常，欢迎联系客服反馈！经确认的有效Bug反馈将获得额外订阅时长奖励，感谢您帮助我们改进产品。",
+            "timestamp": 1742400000
+        }
+    ],
+    "minSupportedVersion": "",
+    "killedVersions": [],
+    "killMessage": "",
+    "features": {
+        "lanShare": true,
+        "autoSelect": true,
+        "debugTools": { "enabled": true, "grayPercentage": 0 }
+    },
+    "maintenance": {
+        "enabled": false,
+        "message": ""
+    },
+    "grayRelease": {
+        "enabled": false,
+        "version": "",
+        "percentage": 0,
+        "updateLink": "",
+        "versionDescription": ""
+    },
+    "socialLinks": [
+        {
+            "type": "telegram",
+            "label": "Telegram 群组",
+            "url": "https://t.me/your_group",
+            "enabled": false
+        }
+    ],
+    "preferEncryptedYaml": true,
+    "apiGateways": [
+        "https://hook.pixiv.digital"
+    ],
+    "configMirrors": [
+        "github://roger-xavier2/bit-config/uu.json"
+    ],
+    "dohServers": [
+        "https://dns.alidns.com/resolve",
+        "https://doh.pub/dns-query"
+    ],
+    "directIPs": [],
+    "rescueNodes": [],
+    "rescueNodesVersion": ""
+}
