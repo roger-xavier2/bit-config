@@ -5,19 +5,39 @@
     "planID": "ef3c43c6daa411ee965e5254001e7c00",
     "skuID": "ef440afcdaa411ee9e165254001e7c00",
     "updateLink": "http://pixiv.digital",
-    "lastVersion": "1.0.12",
-    "versionDescription": "全新节点智能分组与加密传输，界面交互全面升级，新增多渠道密码找回，优化全平台连接体验与速度检测，提升账户安全防护等级，多项细节打磨与稳定性增强。\n建议：更新时无需退出旧版本，直接覆盖安装即可。",
+    "lastVersion": "1.0.13",
+    "versionDescription": "新增容灾多通道智能切换，连接更稳不中断；支持悬浮窗实时查看流量与连接状态；Android 端新增分应用代理，精准控制哪些应用走代理；订阅配置全面优化，自动适配与加密传输更可靠。\n建议：更新时无需退出旧版本，直接覆盖安装即可。",
     "websiteId": "0782b7a2-79ab-4956-ab2f-d8c6fe0db1fb",
     "showSupport": true,
     "customSupportUrl": "",
     "showNotification": true,
-    "notificationTitle": "v1.0.12 更新",
-    "notificationContent": "本次更新内容：\n1. 节点智能分组，连接更快更稳定\n2. 订阅传输全面加密，隐私安全升级\n3. 界面全新升级，交互更流畅视觉更舒适\n4. 新增多渠道密码找回，账户管理更便捷\n5. 优化各平台连接速度与整体使用体验",
+    "notificationTitle": "v1.0.13 更新",
+    "notificationContent": "本次更新内容：\n1. 容灾多通道智能切换，API/订阅/配置多链路自动容灾，连接更稳不中断\n2. 悬浮窗实时监控，随时查看上下行流量与连接状态\n3. 分应用代理（Android），自由选择哪些应用走代理\n4. 订阅配置全面优化，自动适配 Clash 格式并加密传输\n5. DoH 域名解析加速，多节点并发竞速提升连接成功率。",
     "notificationTimestamp": 1773964800,
     "notifications": [
         {
-            "title": "v1.0.12 更新",
-            "content": "本次更新内容：\n1. 节点智能分组，连接更快更稳定\n2. 订阅传输全面加密，隐私安全升级\n3. 界面全新升级，交互更流畅视觉更舒适\n4. 新增多渠道密码找回，账户管理更便捷\n5. 优化各平台连接速度与整体使用体验",
+            "title": "节点测速与选择小修复(仅 Android)",
+            "content": "本次修复仅针对 Android 客户端，iOS 和桌面端不涉及（实现路径不同，无此问题）。\n\nAndroid 端涉及节点测速与选择行为：\n\n1. 测速更快、结果更准 —— 修复了\"明明可用显示超时\"和\"明明超时显示正常\"的偶发显示错乱，整体测试更可信。\n\n2. 您手动选择的节点会被完整保留 —— 断开重连后仍是您选的那个，连接中也不会因后台测速或质量监控被自动替换。\n\n3. 连接失败提示更清晰 —— 选中节点连接失败时会直接给出错误提示，不再静默换成其他节点。\n\n📥 如何获取本次修复：旧版本用户请打开 App 左侧菜单 → 「官网」，下载并安装最新版本即可。\n\n如遇问题欢迎反馈客服。",
+            "timestamp": 1777161600
+        },
+        {
+            "title": "2026.4.15 | 近期线路情况说明",
+            "content": "1，近期因不可抗因素，原有服务器大面积瘫痪。为维持基础通讯，目前节点已全面回退至【国际直连】与【国际中转】模式，整体网络延迟及稳定性受到一定影响。\n\n2，目前国际线路全面启用\"动态 IP 自动轮换\"机制。当节点 IP 被阻断时，系统会在约 10 分钟内完成新 IP 的调度与替换。\n应对操作：若发现节点无网络，请切勿频繁切换，**等待 10 分钟后在客户端执行\"更新订阅\"**即可恢复连接。\n\n3，我们珍视多年陪伴建立的信任，体验降级亦非我们所愿。作为补偿：即日起，我们将永久下调系统内所有中转及专线节点的流量倍率。\n\n4，我们一直在幕后持续测试新的路由方案以优化国际段延迟。如若封锁态势有所缓解，我们会立刻恢复原有网络架构。望理解！",
+            "timestamp": 1776211200
+        },
+        {
+            "title": "中转/专线节点维护更新通知",
+            "content": "维护时间：2026年4月2日 - 4月3日\n\n维护内容：中转节点和专线节点将进行线路优化与服务器升级维护。\n\n维护期间中转和专线节点可能出现短暂不可用或连接不稳定的情况，直连节点不受影响，可正常使用。\n\n维护完成后节点将自动恢复，届时建议刷新节点列表获取最新配置。\n\n感谢您的理解与支持！",
+            "timestamp": 1743552000
+        },
+        {
+            "title": "规则模式 vs 全局模式",
+            "content": "【规则模式】根据预设规则智能分流，国内流量直连、海外流量走代理，日常使用推荐此模式。\n\n【全局模式】所有流量均通过代理转发，适用于对网络环境要求严格的场景（如 ChatGPT、Claude 等 AI 工具），可有效避免因部分直连流量导致的访问限制。\n\n切换方式：首页左上角点击当前模式即可切换。",
+            "timestamp": 1711324800
+        },
+        {
+            "title": "v1.0.13 更新",
+            "content": "本次更新内容：\n1. 容灾多通道智能切换，API/订阅/配置多链路自动容灾，连接更稳不中断\n2. 悬浮窗实时监控，随时查看上下行流量与连接状态\n3. 分应用代理（Android），自由选择哪些应用走代理\n4. 订阅配置全面优化，自动适配 Clash 格式并加密传输\n5. DoH 域名解析加速，多节点并发竞速提升连接成功率。",
             "timestamp": 1773964800
         },
         {
@@ -53,18 +73,35 @@
             "enabled": false
         }
     ],
-    "preferEncryptedYaml": true,
     "apiGateways": [
-        "https://hook.pixiv.digital"
+        "https://hook.pixiv.digital",
+        "https://hook.bitvpn.us",
+        "https://hook.pixivs.cn"
     ],
     "configMirrors": [
+        "https://cfg.pixiv.digital/uu.json",
+        "https://uu.bitvpn.us/uu.json",
+        "https://uu.pixivs.cn/uu.json",
+        "https://uu.yingwu.lol/uu.json",
+        "https://raw.githubusercontent.com/roger-xavier2/bit-config/main/uu.json"
+    ],
+    "retiredEndpoints": [
         "github://roger-xavier2/bit-config/uu.json"
     ],
     "dohServers": [
         "https://dns.alidns.com/resolve",
         "https://doh.pub/dns-query"
     ],
-    "directIPs": [],
-    "rescueNodes": [],
-    "rescueNodesVersion": ""
+    "dohDomains": [
+        "uu.pixiv.digital",
+        "hook.pixiv.digital",
+        "cfg.pixiv.digital",
+        "hook.bitvpn.us",
+        "hook.pixivs.cn",
+        "uu.bitvpn.us",
+        "uu.pixivs.cn",
+        "uu.yingwu.lol",
+        "api.github.com",
+        "raw.githubusercontent.com"
+    ]
 }
