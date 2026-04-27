@@ -58,6 +58,28 @@
         "updateLink": "",
         "versionDescription": ""
     },
+    "platformReleases": {
+        "android": {
+            "version": "1.0.13",
+            "promptEnabled": false
+        },
+        "ios": {
+            "version": "1.0.13",
+            "promptEnabled": false
+        },
+        "macos": {
+            "version": "1.0.13",
+            "promptEnabled": false
+        },
+        "windows": {
+            "version": "1.0.13",
+            "promptEnabled": false
+        },
+        "linux": {
+            "version": "1.0.13",
+            "promptEnabled": false
+        }
+    },
     "socialLinks": [
         {
             "type": "telegram",
