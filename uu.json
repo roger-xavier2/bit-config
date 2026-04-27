@@ -60,8 +60,11 @@
     },
     "platformReleases": {
         "android": {
-            "version": "1.0.13",
-            "promptEnabled": false
+            "version": "1.0.14",
+            "description": "【测试】Android 端有一个新版本可用，包含若干 bug 修复与体验优化。点击下方按钮跳转到官网下载最新安装包。",
+            "updateLink": "http://pixiv.digital",
+            "promptEnabled": true,
+            "promptForce": false
         },
         "ios": {
             "version": "1.0.13",
