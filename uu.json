@@ -1,20 +1,31 @@
 {
-    "baseUrl": "https://hook.pixiv.digital",
+    "baseUrl": "https://bit.pixiv.digital",
     "serverBaseUrl": "https://uu.pixiv.digital",
     "purchaseLinkBase": "https://ifdian.net/order/create?product_type=1",
     "planID": "ef3c43c6daa411ee965e5254001e7c00",
     "skuID": "ef440afcdaa411ee9e165254001e7c00",
     "updateLink": "http://pixiv.digital",
-    "lastVersion": "1.0.13",
-    "versionDescription": "新增容灾多通道智能切换，连接更稳不中断；支持悬浮窗实时查看流量与连接状态；Android 端新增分应用代理，精准控制哪些应用走代理；订阅配置全面优化，自动适配与加密传输更可靠。\n建议：更新时无需退出旧版本，直接覆盖安装即可。",
+    "lastVersion": "1.0.14",
+    "versionDescription": "本次更新内容：\n1. 新增主页实时速率卡片，折线图直观展示上下行网速变化\n2. 新增主页流量统计图表，累计上下行用量一目了然\n3. 新增进阶配置入口，自动连接、局域网代理等高级选项集中管理\n4. 新增网络检测卡片，一键测试出口 IP、延迟、海外平台连通性\n5. 优化节点测速，测速速度与并发更快，首次进入节点列表即同步真实延迟\n6. 优化测速准确率，结果更可信\n7. 优化连接与模式切换稳定性，整体响应更迅速\n建议：更新时无需退出旧版本，直接覆盖安装即可。",
+    "updatePrompt": {
+        "enabled": true,
+        "force": false,
+        "title": "",
+        "message": ""
+    },
     "websiteId": "0782b7a2-79ab-4956-ab2f-d8c6fe0db1fb",
     "showSupport": true,
     "customSupportUrl": "",
     "showNotification": true,
-    "notificationTitle": "v1.0.13 更新",
-    "notificationContent": "本次更新内容：\n1. 容灾多通道智能切换，API/订阅/配置多链路自动容灾，连接更稳不中断\n2. 悬浮窗实时监控，随时查看上下行流量与连接状态\n3. 分应用代理（Android），自由选择哪些应用走代理\n4. 订阅配置全面优化，自动适配 Clash 格式并加密传输\n5. DoH 域名解析加速，多节点并发竞速提升连接成功率。",
-    "notificationTimestamp": 1773964800,
+    "notificationTitle": "v1.0.14 更新",
+    "notificationContent": "本次更新内容：\n1. 新增主页实时速率卡片，折线图直观展示上下行网速变化\n2. 新增主页流量统计图表，累计上下行用量一目了然\n3. 新增进阶配置入口，自动连接、局域网代理等高级选项集中管理\n4. 新增网络检测卡片，一键测试出口 IP、延迟、海外平台连通性\n5. 优化节点测速，测速速度与并发更快，首次进入节点列表即同步真实延迟\n6. 优化测速准确率，结果更可信\n7. 优化连接与模式切换稳定性，整体响应更迅速。",
+    "notificationTimestamp": 1778025600,
     "notifications": [
+        {
+            "title": "v1.0.14 更新",
+            "content": "本次更新内容：\n1. 新增主页实时速率卡片，折线图直观展示上下行网速变化\n2. 新增主页流量统计图表，累计上下行用量一目了然\n3. 新增进阶配置入口，自动连接、局域网代理等高级选项集中管理\n4. 新增网络检测卡片，一键测试出口 IP、延迟、海外平台连通性\n5. 优化节点测速，测速速度与并发更快，首次进入节点列表即同步真实延迟\n6. 优化测速准确率，结果更可信\n7. 优化连接与模式切换稳定性，整体响应更迅速。",
+            "timestamp": 1778025600
+        },
         {
             "title": "节点测速与选择小修复(仅 Android)",
             "content": "本次修复仅针对 Android 客户端，iOS 和桌面端不涉及（实现路径不同，无此问题）。\n\nAndroid 端涉及节点测速与选择行为：\n\n1. 测速更快、结果更准 —— 修复了\"明明可用显示超时\"和\"明明超时显示正常\"的偶发显示错乱，整体测试更可信。\n\n2. 您手动选择的节点会被完整保留 —— 断开重连后仍是您选的那个，连接中也不会因后台测速或质量监控被自动替换。\n\n3. 连接失败提示更清晰 —— 选中节点连接失败时会直接给出错误提示，不再静默换成其他节点。\n\n📥 如何获取本次修复：旧版本用户请打开 App 左侧菜单 → 「官网」，下载并安装最新版本即可。\n\n如遇问题欢迎反馈客服。",
@@ -60,27 +71,39 @@
     },
     "platformReleases": {
         "android": {
-            "version": "1.0.14",
-            "description": "【测试】Android 端有一个新版本可用，包含若干 bug 修复与体验优化。点击下方按钮跳转到官网下载最新安装包。",
-            "updateLink": "http://pixiv.digital",
-            "promptEnabled": true,
-            "promptForce": false
+            "version": "",
+            "description": "",
+            "updateLink": "",
+            "promptEnabled": null,
+            "promptForce": null
         },
         "ios": {
-            "version": "1.0.13",
-            "promptEnabled": false
+            "version": "",
+            "description": "",
+            "updateLink": "",
+            "promptEnabled": null,
+            "promptForce": null
         },
         "macos": {
-            "version": "1.0.13",
-            "promptEnabled": false
+            "version": "",
+            "description": "",
+            "updateLink": "",
+            "promptEnabled": null,
+            "promptForce": null
         },
         "windows": {
-            "version": "1.0.13",
-            "promptEnabled": false
+            "version": "",
+            "description": "",
+            "updateLink": "",
+            "promptEnabled": null,
+            "promptForce": null
         },
         "linux": {
-            "version": "1.0.13",
-            "promptEnabled": false
+            "version": "",
+            "description": "",
+            "updateLink": "",
+            "promptEnabled": null,
+            "promptForce": null
         }
     },
     "socialLinks": [
@@ -92,6 +115,7 @@
         }
     ],
     "apiGateways": [
+        "https://bit.pixiv.digital",
         "https://hook.pixiv.digital",
         "https://hook.bitvpn.us",
         "https://hook.pixivs.cn"
@@ -112,6 +136,7 @@
     ],
     "dohDomains": [
         "uu.pixiv.digital",
+        "bit.pixiv.digital",
         "hook.pixiv.digital",
         "cfg.pixiv.digital",
         "hook.bitvpn.us",
